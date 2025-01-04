@@ -1,6 +1,8 @@
 # Finaq: Projeto de Gestão Financeira
 
-![Logo do Site](frontend/img/logo.png)
+<p align="center">
+<a href= "https://www.fecap.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado" border="0"></a>
+</p>
 
 **Licença:** Este projeto está licenciado sob CC BY-NC-ND 4.0. Para mais detalhes, visite a página do [Creative Commons](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
@@ -41,24 +43,5 @@ No diretório do projeto, você pode usar os seguintes comandos:
 
 ---
 
-## Recursos Adicionais
 
-- Saiba mais sobre o **Create React App** na [documentação oficial](https://facebook.github.io/create-react-app/docs/getting-started).
-- Consulte a [documentação do React](https://reactjs.org/) para guias completos.
-
-### Tópicos Avançados
-
-- [Divisão de Código](https://facebook.github.io/create-react-app/docs/code-splitting)
-- [Análise do Tamanho do Bundle](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-- [Progressive Web Apps](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-- [Configuração Avançada](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-- [Implantação](https://facebook.github.io/create-react-app/docs/deployment)
-
----
-
-### Solução de Problemas
-
-- **`npm run build` falha ao minificar**: Consulte o [guia de solução de problemas](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify).
-
----
 
