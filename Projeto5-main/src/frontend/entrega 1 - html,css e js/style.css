@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(130deg, #002D21 15%, #9BDDC1 58%, #027553 80%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    font-size: 1rem;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2%;
+    background: linear-gradient(90deg, #013527 14%, #11a88a 85%);
+    height: 80px; 
+}
+
+.logo img {
+    width: 5rem;
+    margin-left: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin-left: -90%;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+
+nav ul li a:hover {
+    color: #0d694b; 
+}
+
+
+.minha-conta {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 1rem; 
+    transition: all 0.3s ease;
+    margin-left: -70px;
+}
+
+.minha-conta:hover {
+     background-color: #fff;
+     color: #004f42;
+
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 2%;
+}
+
+.form-container h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    text-align: center;
+    margin-left: -55px;
+}
+
+.content {
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 2rem;
+    margin-bottom: 1.25rem;
+}
+
+.content p {
+    font-family: 'Merriweather', serif; 
+    font-size: 1.5rem;                   
+    font-weight: 400;                   
+    line-height: 1.6;               
+    letter-spacing: 0;  
+    width: 80%;             
+    max-width: 400px; 
+    text-align: justify;                
+    color: #FFFFFF;                     
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    max-width: 350px;
+    padding: 0;
+    background:none;
+}
+
+form input {
+    padding: 0.8rem;
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #fff;
+    font-size: 1rem;
+    width: 45vw; 
+    max-width: 600px;
+    margin-left: auto;
+    margin-left: -150px;
+}
+
+form input::placeholder{
+    color: white;
+}
+
+form button {
+    background-color: transparent;
+    border: 1px solid #FFFF;
+    color: white;
+    padding: 0.8rem;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1rem;
+    width: auto;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+    margin-left: -50px;
+}
+
+
+form button:hover{
+    background-color: #fff;
+    color: #004f42;
+}
+
+.social-login {
+    display: flex;
+    justify-content: center; 
+    gap: 1rem; 
+    margin-left: -50px;
+}
+
+.social-login a img {
+    width: 2rem;
+}
+
+.login {
+    text-align: center;
+}
+
+.login p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-left: -50px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: linear-gradient(90deg, #013527 14%, #11a88a 85%);
+    color: white;
+}
+
+@media (max-width: 1024px) {
+    nav ul {
+        gap: 30px;
+        margin-left: 0;
+    }
+
+    .minha-conta {
+        padding: 10px 20px;
+        font-size: 16px;
+        margin-left: 0;
+    }
+
+    .hero {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .content h1 {
+        font-size: 32px;
+    }
+
+    .content p {
+        font-size: 18px;
+        width: 100%;
+    }
+
+    form input {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    form button {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    .social-login {
+        margin-left: 0;
+    }
+
+    .login p {
+        margin-left: 0;
+    }
+}
+
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        height: auto;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    .minha-conta {
+        padding: 10px 15px;
+        font-size: 14px;
+        margin: 10px 0;
+    }
+
+    .hero {
+        padding: 10px;
+    }
+
+    .content h1 {
+        font-size: 24px;
+    }
+
+    .content p {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    form input, form button {
+        width: 90%;
+        margin: 5px auto;
+    }
+}
+
+
+@media (max-width: 480px) {
+    header {
+        padding: 10px;
+    }
+
+    .logo img {
+        width: 60px;
+        margin-left: 0;
+    }
+
+    nav ul {
+        gap: 5px;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+    }
+
+    .minha-conta {
+        padding: 8px 10px;
+        font-size: 12px;
+        margin-left: 0;
+    }
+
+    .hero {
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    .content h1 {
+        font-size: 18px;
+    }
+
+    .content p {
+        font-size: 14px;
+    }
+
+    .form-container h2 {
+        font-size: 20px;
+    }
+
+    form input, form button {
+        padding: 10px;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .social-login a img {
+        width: 20px;
+    }
+}
