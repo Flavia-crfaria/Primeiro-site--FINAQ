@@ -1,7 +1,14 @@
 # Finaq: Projeto de Gestão Financeira
 
+
+
 <p align="center">
-<a href= "https://www.fecap.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado" border="0"></a>
+<img src="./imagens/logo.jpeg" alt="logo do site" border="0">
+ <p align="center">
+ 
+ Site By Finaq <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/© 2">CC BY-NC-ND 4.0</a>
+
+
 </p>
 
 **Licença:** Este projeto está licenciado sob CC BY-NC-ND 4.0. Para mais detalhes, visite a página do [Creative Commons](https://creativecommons.org/licenses/by-nc-nd/4.0/).
