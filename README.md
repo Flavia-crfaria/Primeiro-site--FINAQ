@@ -1,11 +1,5 @@
 # Finaq: Projeto de Gestão Financeira
 
-
-
-<p align="center">
-<img src="./imagens/logo.jpeg" alt="logo do site" border="0">
- <p align="center">
- 
  Site By Finaq <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/© 2">CC BY-NC-ND 4.0</a>
 
 
